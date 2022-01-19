@@ -36,7 +36,7 @@ console.log (`Seu nome começa com ${nome.substring(0,1)}`)
 
 //5 - Criar uma condição que exiba uma mensagem no console se seu sobrenome tenha mais de 6 letras OU seu nome começar com a letra E
 let sobrenome = "Damasio"
-if ( nome.substring (0,1) == "E" || sobrenome.length == 6){
+if ( nome.substring (0,1) == "E" || sobrenome.length > 6){
     console.log ("Você cumpre ao menos 1 ou todos os requisitos")
 } 
 else {
